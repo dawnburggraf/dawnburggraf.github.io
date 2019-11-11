@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Treasure Hunt</title>
+        <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq46s-OHqfNA-2D6PfutZQPnA9TXVLBPWZXQPZXi5__OZRd4Nhwg&s">
+        <link rel="stylesheet"href="treasurehunt.css" >
+        <link href="https://fonts.googleapis.com/css?family=Kalam:700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+        
+        <div class="bodyB">
+            <h1>Ice Cream Hunt</h1>
+            <img src="https://media.giphy.com/media/3o7bubBgMcmylcT9F6/giphy.gif" id = icyBoy alt="">
+            <h4>Rules of the game</h4>
+            <ol>
+                <li>If you pick a 👅 you keep licking</li>
+                <li>If you pick a 🌶 you fail the game</li>
+                <li>If you pick a 🍦 you win</li>
+                <li>You have 3 turns</li>
+            </ol>
+            <h3>GOOD LUCK and GET LICKING!</h3>
+            <h4 id = "turns">Turns</h4>
+
+
+            <div id = "gameBoard">
+
+                <table>
+                    <tr>
+                        <td id="1" class="az" onclick="tableClick(1)">😜</td>
+                        <td id="2" class="bz" onclick="tableClick(2)">😝</td>
+                        <td id="3" class="cz" onclick="tableClick(3)">😛</td>
+
+                    </tr>
+                    <tr>
+                        <td id="4" class="dz" onclick="tableClick(4)">😋</td>
+                        <td id="5" class="ez" onclick="tableClick(5)">😜</td>
+                        <td id="6" class="fz" onclick="tableClick(6)">🤤</td>
+
+                    </tr>
+                    <tr>
+                        <td id="7" class="gz" onclick="tableClick(7)">🤤</td>
+                        <td id="8"class="hz" onclick="tableClick(8)">😋</td>
+                        <td id="9" class="iz" onclick="tableClick(9)">😛</td>
+
+                    </tr>
+                </table>
+
+        </div>
+        <h2 id = "gameOver"></h2>
+    </div>
+        <button type="button" onclick="location.reload()">Restart Game</button>
+        <hr>
+
+        <footer> Sabrina and Dawn <a href="https://en.wikipedia.org/wiki/Ice_cream">more about ice cream</a></footer>
+
+        <script type="text/javascript" src="treasurehunt.js"></script>
+    </body>
+</html>

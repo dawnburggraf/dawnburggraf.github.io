@@ -1,0 +1,82 @@
+*{
+}
+body{
+    background-image: url("https://mediacdn.bellacor.com/images/500/2093JE3733.jpg");
+    background-size: cover;
+    font-family: 'Kalam', cursive;
+    font-weight: 300;
+    text-align: center;
+}
+ol{
+    text-align: left;
+    margin-left: 35vw;
+
+}
+#gameBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3px;
+}
+td{
+    height: 150px;
+    width: 150px;
+    border: 2px solid red;
+    font-size: 50px;
+    margin: 3px;
+}
+table{
+    border: 3px solid red;
+    margin: 3px;
+}
+#gameOver{
+    font-size: 100px;
+}
+h1{
+    font-size: 100px;
+    margin-bottom: 3px;
+    color: #2ddaf7;
+}
+h4 {
+    font-size: 50px;
+    margin: 3px;
+}
+.az{
+    background-color: #cff8ff;
+}
+.bz{
+    background-color: #fff6cf;
+}
+.cz{
+    background-color: #e4cfff;
+}
+.dz{
+    background-color: #fff6cf;
+}
+.ez{
+    background-color: #e4cfff;
+}
+.fz{
+    background-color: #cff8ff;
+}
+.gz{
+    background-color: #e4cfff;
+}
+.hz{
+    background-color: #cff8ff;
+}
+.iz{
+    background-color: #fff6cf;
+}
+#icyBoy{
+    border-radius: 300px;
+    height: 275px;
+    width: 275px;
+
+}
+
+
+
+
+
+}
